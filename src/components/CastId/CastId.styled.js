@@ -6,8 +6,6 @@ export const List = styled.ul`
   grid-column-gap: 10px;
   grid-row-gap: 1em;
   padding-top: 20px;
-
-  border-top: ${p => p.theme.borders.bold} ${p => p.theme.colors.primary};
 `;
 export const Item = styled.li`
   color: ${p => p.theme.colors.text};
